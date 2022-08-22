@@ -149,6 +149,10 @@ STATE_PROGRAM_PHASE = {
     1799: "drying",
     1800: "finished",
     1801: "pre_dishwash",
+    # steam oven combination
+    7938: "cooking",
+    7940: "heating",
+    7942: "finished",
     # Error conditions/API quirks.
     65535: "not_running",  # Seems to be an API error/default value.
 }
